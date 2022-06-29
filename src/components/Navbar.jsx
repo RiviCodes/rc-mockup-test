@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-row justify-between py-6 mx-3 md:mx-12">
+    <nav className="flex flex-row justify-between py-5 mx-3 md:mx-12">
       {/* Left side */}
       <div className="flex flex-row justify-between items-center w-7/12 lg:w-5/12">
         {/* Logo */}
