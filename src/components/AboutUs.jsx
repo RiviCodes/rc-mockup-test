@@ -58,7 +58,7 @@ export default function AboutUs() {
       <div className="grid grid-cols-1 md:grid-cols-12 mx-8 md:mx-12 mt-12">
         {/* LEFT SIDE */}
         <div className="col-span-6">
-          <h2 className="mb-4 font-mono text-gray-600">
+          <h2 className="mb-4 font-mono tracking-tighter text-gray-600">
             --- ¿QUÉ HACEMOS? ---
           </h2>
           <h3 className="mb-8 lg:w-5/6 text-3xl lg:text-4xl font-extrabold text-slate-800">

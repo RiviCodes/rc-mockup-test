@@ -7,7 +7,8 @@ export default function Welcome() {
       className="flex flex-col  items-center h-80 md:h-96 lg:h-screen w-auto"
     >
       <span className="mt-4 md:mt-8 lg:mt-12 pt-8 lg:pt-12 pb-8 text-white font-mono tracking-widest">
-        --- BIENVENIDOS ---
+        <span className="tracking-tighter">---</span> BIENVENIDOS{" "}
+        <span className="tracking-tighter">---</span>
       </span>
       <h1 className="mt-4 md:mt-8 lg:mt-12 text-xl md:text-3xl lg:text-4xl font-semibold text-white">
         Lorem ipsum, dolor sit amet
