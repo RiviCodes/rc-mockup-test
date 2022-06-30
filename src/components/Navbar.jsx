@@ -11,13 +11,13 @@ export default function Navbar() {
         </h1>
         <a
           className="border-b-4 border-transparent hover:border-cyan-400 text-sm font-extrabold text-gray-700 md:text-base"
-          href="#"
+          href="#start"
         >
           INICIO
         </a>
         <a
           className="border-b-4 border-transparent hover:border-cyan-400 text-sm font-extrabold text-gray-700 md:text-base"
-          href="#"
+          href="#about"
         >
           NOSOTROS
         </a>
