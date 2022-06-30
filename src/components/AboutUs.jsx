@@ -55,9 +55,9 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-8 md:mx-12">
+      <div className="grid grid-cols-1 md:grid-cols-12 mx-8 md:mx-12">
         {/* LEFT SIDE */}
-        <div>
+        <div className="col-span-7">
           <h2 className="mb-4 font-mono text-gray-600">
             --- ¿QUÉ HACEMOS? ---
           </h2>
@@ -76,7 +76,7 @@ export default function AboutUs() {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="relative flex justify-center">
+        <div className="col-span-5 relative flex justify-center">
           <img
             className="relative bottom-0 left-20 w-4/6 shadow-lg shadow-gray-400"
             src="images/picture-2.jpg"
