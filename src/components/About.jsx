@@ -5,14 +5,14 @@ export default function About() {
     <section className="flex flex-col items-center">
       <div className="flex flex-row">
         <h3 className="font-semibold text-slate-700 mb-7">
-          ACERCA DE NOSOTROS
+          --- ACERCA DE NOSOTROS ---
         </h3>
       </div>
-      <h2 className="font-bold text-center text-4xl w-9/12 mb-7">
+      <h2 className="font-bold text-center text-3xl lg:text-4xl w-10/12 md:w-9/12 lg:w-9/12 mb-7">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
         dignissimos consequatur doloribus
       </h2>
-      <p className="text-center text-lg w-3/6 mb-5">
+      <p className="text-center text-md md:text-lg w-5/6 lg:w-3/6 mb-2 lg:mb-6">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
         dignissimos consequatur doloribus odio nam, ad fugiat deleniti modi
         iure, explicabo doloremque distinctio similique, possimus.
