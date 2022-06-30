@@ -21,9 +21,9 @@ export default function About() {
       {/* Grid Container */}
       <div className="grid grid-cols-1 justify-items-center mt-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-12">
         {/* Item #1 */}
-        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:justify-self-end">
+        <div className="flex flex-col items-center w-9/12 py-6 lg:py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:justify-self-end">
           <img
-            className="h-auto w-4/12 pb-4"
+            className="h-auto w-3/12 lg:w-4/12 pb-4"
             src="images/target-icon.png"
             alt=""
           />
@@ -32,9 +32,9 @@ export default function About() {
           </p>
         </div>
         {/* Item #2 */}
-        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 shadow-2xl transition ease-in-out delay">
+        <div className="flex flex-col items-center w-9/12 py-6 lg:py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:shadow-2xl">
           <img
-            className="h-auto w-4/12 pb-4"
+            className="h-auto w-3/12 lg:w-4/12 pb-4"
             src="images/person-icon.png"
             alt=""
           />
@@ -43,9 +43,9 @@ export default function About() {
           </p>
         </div>
         {/* Item #3 */}
-        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:justify-self-start">
+        <div className="flex flex-col items-center w-9/12 py-6 lg:py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:justify-self-start">
           <img
-            className="h-auto w-4/12 pb-4"
+            className="h-auto w-3/12 lg:w-4/12 pb-4"
             src="images/shield-icon.png"
             alt=""
           />
@@ -54,7 +54,7 @@ export default function About() {
           </p>
         </div>
         {/* Item #4 */}
-        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-6 lg:justify-self-end">
+        <div className="flex flex-col items-center w-9/12 py-6 lg:py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-6 lg:justify-self-end">
           <img
             className="h-auto w-3/12 pb-4"
             src="images/lock-icon.png"
@@ -65,7 +65,7 @@ export default function About() {
           </p>
         </div>
         {/* Item #5 */}
-        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-6 lg:justify-self-start">
+        <div className="flex flex-col items-center w-9/12 py-6 lg:py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-6 lg:justify-self-start">
           <img
             className="h-auto w-3/12 pb-4"
             src="images/docs-icon.png"
