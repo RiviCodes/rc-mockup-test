@@ -10,26 +10,26 @@ export default function Navbar() {
           Test
         </h1>
         <a
-          className="border-b-4 border-transparent hover:border-cyan-400 text-sm font-extrabold text-gray-700 md:text-base"
+          className="border-b-4 border-transparent hover:border-cyan-400 transition ease-in-out delay text-sm font-extrabold text-gray-700 md:text-base"
           href="#start"
         >
           INICIO
         </a>
         <a
-          className="border-b-4 border-transparent hover:border-cyan-400 text-sm font-extrabold text-gray-700 md:text-base"
+          className="border-b-4 border-transparent hover:border-cyan-400 transition ease-in-out delay text-sm font-extrabold text-gray-700 md:text-base"
           href="#about"
         >
           NOSOTROS
         </a>
         <a
-          className="border-b-4 border-transparent hover:border-cyan-400 text-sm font-extrabold text-gray-700 md:text-base hidden sm:block"
+          className="border-b-4 border-transparent hover:border-cyan-400 transition ease-in-out delay text-sm font-extrabold text-gray-700 md:text-base hidden sm:block"
           href="#"
         >
           CONTACTO
         </a>
       </div>
       {/* Right side */}
-      <button className="btn rounded-md px-5 py-2 text-white bg-cyanBlue hover:bg-cyan-500 transition ease-in-out delay-80 text-sm font-bold shadow-md">
+      <button className="btn rounded-md px-5 py-2 text-white bg-cyanBlue hover:bg-cyan-500 transition ease-in-out delay text-sm font-bold shadow-md">
         COTIZAR AHORA
       </button>
     </nav>
