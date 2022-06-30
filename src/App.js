@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
-import AboutUs from "./components/AboutUs";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <React.Fragment>
       <Navbar />
       <Welcome />
-      <AboutUs />
+      <Hero />
     </React.Fragment>
   );
 }

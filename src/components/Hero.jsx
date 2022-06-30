@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AboutUs() {
+export default function Hero() {
   return (
     <main id="about" className="flex flex-col align-center">
       {/* Contact bar */}
@@ -58,14 +58,14 @@ export default function AboutUs() {
       <div className="grid grid-cols-1 md:grid-cols-12 mx-8 md:mx-12 mt-12">
         {/* LEFT SIDE */}
         <div className="col-span-6">
-          <h2 className="mb-4 font-mono tracking-tighter text-gray-600">
+          <h2 className="pb-4 font-mono tracking-tighter text-gray-600">
             --- ¿QUÉ HACEMOS? ---
           </h2>
-          <h3 className="mb-8 lg:w-5/6 text-3xl lg:text-4xl font-extrabold text-slate-800">
+          <h3 className="pb-8 lg:w-5/6 text-3xl lg:text-4xl font-extrabold text-slate-800">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit d fugiat
             deleniti modi iure, explicabo doloremque
           </h3>
-          <p className="mb-8 lg:w-5/6">
+          <p className="pb-8 lg:w-5/6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
             dignissimos consequatur doloribus odio nam, ad fugiat deleniti modi
             iure, explicabo doloremque distinctio similique.
