@@ -29,12 +29,12 @@ export default function Hero() {
         {/* RIGHT SIDE */}
         <div className="col-span-6 relative flex justify-center">
           <img
-            className="relative top-0 left-14 sm:left-28 md:left-14 xl:left-20 w-auto h-4/6 sm:h-3/6 md:h-3/5 shadow-lg shadow-gray-400"
+            className="relative lg:-mb-32 top-0 left-14 sm:left-28 md:left-14 xl:left-20 w-auto h-4/6 sm:h-3/6 md:h-3/5 lg:h-4/5 shadow-lg shadow-gray-400"
             src="images/picture-2.jpg"
             alt=""
           />
           <img
-            className="absolute top-48 md:top-44 xl:top-64 left-3 sm:left-12 md:left-12 lg:left-6 xl:left-2 w-4/6 sm:w-3/6 md:w-4/6 xl:w-3/5 shadow-lg shadow-gray-400"
+            className="absolute top-48 md:top-44 lg:top-64 xl:top-72 left-3 sm:left-12 md:left-12 lg:left-6 xl:left-2 w-4/6 sm:w-3/6 md:w-4/6 lg:w-3/5 shadow-lg shadow-gray-400"
             src="images/picture-1.jpg"
             alt=""
           />
