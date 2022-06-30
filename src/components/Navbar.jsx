@@ -11,7 +11,7 @@ export default function Navbar() {
         </h1>
         <a
           className="border-b-4 border-transparent hover:border-cyan-400 transition ease-in-out delay text-sm font-extrabold text-gray-700 md:text-base"
-          href="#start"
+          href="#hero"
         >
           INICIO
         </a>

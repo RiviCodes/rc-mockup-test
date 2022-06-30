@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <main
-      id="about"
+      id="hero"
       className="flex flex-col align-center sm:-mb-52 md:mb-10 lg:mb-0"
     >
       <div className="grid grid-cols-1 md:grid-cols-12 mx-8 md:mx-12 mt-12 xl:mb-">
