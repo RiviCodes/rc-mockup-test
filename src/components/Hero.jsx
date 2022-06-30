@@ -12,11 +12,11 @@ export default function Hero() {
           <h2 className="font-semibold text-slate-700 pb-4">
             --- ¿QUÉ HACEMOS? ---
           </h2>
-          <h3 className="pb-8 lg:w-5/6 text-3xl lg:text-4xl font-extrabold text-slate-800">
+          <h3 className="pb-8 sm:w-5/6 lg:w-5/6 text-3xl lg:text-4xl font-extrabold text-slate-800">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit d fugiat
             deleniti modi iure, explicabo doloremque
           </h3>
-          <p className="pb-8 lg:w-5/6">
+          <p className="pb-8 sm:w-5/6 lg:w-5/6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
             dignissimos consequatur doloribus odio nam, ad fugiat deleniti modi
             iure, explicabo doloremque distinctio similique.
