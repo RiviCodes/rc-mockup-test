@@ -29,7 +29,7 @@ export default function Navbar() {
         </a>
       </div>
       {/* Right side */}
-      <button className="btn rounded-md px-5 py-3 text-white bg-cyanBlue hover:bg-cyan-500 transition ease-in-out delay-80 text-sm font-bold shadow-md">
+      <button className="btn rounded-md px-5 py-2 text-white bg-cyanBlue hover:bg-cyan-500 transition ease-in-out delay-80 text-sm font-bold shadow-md">
         COTIZAR AHORA
       </button>
     </nav>
