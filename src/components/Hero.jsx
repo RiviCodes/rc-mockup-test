@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <main id="about" className="flex flex-col align-center">
+    <main
+      id="about"
+      className="flex flex-col align-center -mb-30 sm:-mb-52 md:mb-10"
+    >
       {/* Contact bar */}
       <div className="grid grid-cols-1 items-center md:grid-cols-3 md:justify-items-center px-6 py-6 mb-12 rounded-lg shadow-lg">
         {/* LOCATION */}
