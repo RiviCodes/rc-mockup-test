@@ -4,15 +4,15 @@ export default function About() {
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-row">
-        <span className="tracking-tighter">---</span>
-        <h1> ACERCA DE NOSOTROS </h1>
-        <span className="tracking-tighter">---</span>
+        <h3 className="font-semibold text-slate-700 mb-7">
+          ACERCA DE NOSOTROS
+        </h3>
       </div>
-      <h3>
+      <h2 className="font-bold text-center text-4xl w-9/12 mb-7">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
         dignissimos consequatur doloribus
-      </h3>
-      <p>
+      </h2>
+      <p className="text-center text-lg w-3/6 mb-5">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
         dignissimos consequatur doloribus odio nam, ad fugiat deleniti modi
         iure, explicabo doloremque distinctio similique, possimus.
