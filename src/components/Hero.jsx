@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="grid grid-cols-1 md:grid-cols-12 mx-8 md:mx-12 mt-12 xl:mb-">
         {/* LEFT SIDE */}
         <div className="col-span-6">
-          <h2 className="pb-4 font-mono tracking-tighter text-gray-600">
+          <h2 className="font-semibold text-slate-700 pb-4">
             --- ¿QUÉ HACEMOS? ---
           </h2>
           <h3 className="pb-8 lg:w-5/6 text-3xl lg:text-4xl font-extrabold text-slate-800">
