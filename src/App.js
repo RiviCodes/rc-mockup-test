@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Welcome />
       <Hero />
+      <About />
     </React.Fragment>
   );
 }
