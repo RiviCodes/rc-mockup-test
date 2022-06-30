@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <React.Fragment>
-      <div className="grid grid-cols-1 items-center md:grid-cols-3 md:justify-items-center px-6 lg:mx-12 rounded-lg shadow-lg">
+      <div className="grid grid-cols-1 items-center md:grid-cols-3 md:justify-items-center px-6 mb-10 lg:mx-12 rounded-lg shadow-lg">
         {/* LOCATION */}
         <div className="grid grid-rows-12 grid-flow-col justify-start items-center my-6">
           {/* Icon */}
