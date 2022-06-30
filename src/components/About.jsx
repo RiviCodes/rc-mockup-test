@@ -27,7 +27,7 @@ export default function About() {
             src="images/target-icon.png"
             alt=""
           />
-          <p className="w-5/6 font-bold text-lg text-center">
+          <p className="w-5/6 lg:w-auto font-bold text-lg text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function About() {
             src="images/person-icon.png"
             alt=""
           />
-          <p className="w-5/6 font-bold text-lg text-center">
+          <p className="w-5/6 lg:w-auto font-bold text-lg text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
@@ -49,7 +49,7 @@ export default function About() {
             src="images/shield-icon.png"
             alt=""
           />
-          <p className="w-5/6 font-bold text-lg text-center">
+          <p className="w-5/6 lg:w-auto font-bold text-lg text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function About() {
             src="images/lock-icon.png"
             alt=""
           />
-          <p className="w-4/6 font-bold text-lg text-center">
+          <p className="w-4/6 md:w-5/6 lg:w-4/6 font-bold text-lg text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function About() {
             src="images/docs-icon.png"
             alt=""
           />
-          <p className="w-4/6 font-bold text-lg text-center">
+          <p className="w-4/6 md:w-5/6 lg:w-4/6 font-bold text-lg text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
