@@ -19,31 +19,61 @@ export default function About() {
       </p>
 
       {/* Grid Container */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12">
+      <div className="grid grid-cols-1 justify-items-center mt-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-12">
         {/* Item #1 */}
-        <div className="flex flex-col items-center lg:col-span-4">
-          <img className="h-auto w-1/6" src="images/target-icon.png" alt="" />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:justify-self-end">
+          <img
+            className="h-auto w-4/12 pb-4"
+            src="images/target-icon.png"
+            alt=""
+          />
+          <p className="w-5/6 font-bold text-lg text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
         {/* Item #2 */}
-        <div className="flex flex-col items-center lg:col-span-4">
-          <img className="h-auto w-1/6" src="images/target-icon.png" alt="" />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 shadow-2xl transition ease-in-out delay">
+          <img
+            className="h-auto w-4/12 pb-4"
+            src="images/person-icon.png"
+            alt=""
+          />
+          <p className="w-5/6 font-bold text-lg text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
         {/* Item #3 */}
-        <div className="flex flex-col items-center lg:col-span-4">
-          <img className="h-auto w-1/6" src="images/target-icon.png" alt="" />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-4 lg:justify-self-start">
+          <img
+            className="h-auto w-4/12 pb-4"
+            src="images/shield-icon.png"
+            alt=""
+          />
+          <p className="w-5/6 font-bold text-lg text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
         {/* Item #4 */}
-        <div className="flex flex-col items-center lg:col-span-6">
-          <img className="h-auto w-1/6" src="images/target-icon.png" alt="" />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-6 lg:justify-self-end">
+          <img
+            className="h-auto w-3/12 pb-4"
+            src="images/lock-icon.png"
+            alt=""
+          />
+          <p className="w-4/6 font-bold text-lg text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
         {/* Item #5 */}
-        <div className="flex flex-col items-center lg:col-span-6">
-          <img className="h-auto w-1/6" src="images/target-icon.png" alt="" />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div className="flex flex-col items-center w-9/12 py-12 rounded-tl-3xl rounded-br-3xl lg:col-span-6 lg:justify-self-start">
+          <img
+            className="h-auto w-3/12 pb-4"
+            src="images/docs-icon.png"
+            alt=""
+          />
+          <p className="w-4/6 font-bold text-lg text-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
       </div>
     </section>
