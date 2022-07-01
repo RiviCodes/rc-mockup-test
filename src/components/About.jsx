@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="flex flex-col items-center">
+    <section id="about" className="flex flex-col items-center lg:mt-20">
       <div className="flex flex-row">
         <h3 className="font-semibold text-slate-700 mb-7">
           --- ACERCA DE NOSOTROS ---
