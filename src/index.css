@@ -21,3 +21,13 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-experience {
+  background: rgb(48, 56, 129);
+  background: linear-gradient(
+    180deg,
+    rgba(48, 56, 129, 1) 0%,
+    rgba(32, 42, 111, 1) 40%,
+    rgba(16, 26, 88, 1) 73%
+  );
+}
