@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Contact />
       <Hero />
       <About />
+      <Experience />
     </React.Fragment>
   );
 }
