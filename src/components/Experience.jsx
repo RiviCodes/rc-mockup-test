@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 lg:mt-28 xl:mt-64 pb-14 bg-experience">
+    <section className="grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 lg:mt-28 xl:mt-40 pb-14 bg-experience">
       {/* LEFT side */}
       <div className=" justify-center md:col-span-6 lg:col-span-7 xl:col-span-6 lg:-mt-28 hidden md:flex">
         <img
-          className="h-auto w-9/12 md:w-9/12 md:h-fit md:self-center md:mt-12"
+          className="h-auto w-9/12 md:w-9/12 lg:w-8/12 md:h-fit md:self-center md:mt-12"
           src="images/our-exp.png"
           alt=""
         />
